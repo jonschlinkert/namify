@@ -1,23 +1,23 @@
 {
-  "name": "variable",
-  "description": "Make a npm package name safe to be used as a javascript variable name. Use as a mixin in Yeoman generators.",
+  "name": "namify",
+  "description": "Convert a npm package name into a safe-to-use variable name. Use as a mixin in Yeoman generators.",
   "version": "0.1.1",
-  "homepage": "https://github.com/jonschlinkert/variable",
+  "homepage": "https://github.com/jonschlinkert/namify",
   "author": {
     "name": "Jon Schlinkert",
     "url": "https://github.com/jonschlinkert"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jonschlinkert/variable.git"
+    "url": "git://github.com/jonschlinkert/namify.git"
   },
   "bugs": {
-    "url": "https://github.com/jonschlinkert/variable/issues"
+    "url": "https://github.com/jonschlinkert/namify/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/jonschlinkert/variable/blob/master/LICENSE-MIT"
+      "url": "https://github.com/jonschlinkert/namify/blob/master/LICENSE-MIT"
     }
   ],
   "keywords": [

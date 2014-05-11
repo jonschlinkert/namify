@@ -1,20 +1,20 @@
-# variable [![NPM version](https://badge.fury.io/js/variable.png)](http://badge.fury.io/js/variable)
+# namify [![NPM version](https://badge.fury.io/js/namify.png)](http://badge.fury.io/js/namify)
 
-> Make a npm package name safe to be used as a javascript variable name. Use as a mixin in Yeoman generators.
+> Make a npm package name safe to be used as a javascript namify name. Use as a mixin in Yeoman generators.
 
 ## Install
 Install with [npm](npmjs.org):
 
 ```bash
-npm i variable --save-dev
+npm i namify --save-dev
 ```
 
 
 ## Usage
 
 ```js
-var varName = require('variable');
-console.log(varName('foo-bar-bar'));
+var namify = require('namify');
+console.log(namify('foo-bar-bar'));
 //=> fooBarBaz
 ```
 
@@ -22,10 +22,10 @@ Use as a mixin in Yeoman generators:
 
 ```js
 // in the contructor
-this._.mixin(varName);
+this._.mixin(namify);
 
 // in templates you can now do something like:
-var <%= _.varName(appName) %> = require('<%= appname %>');
+var <%= _.namify(appName) %> = require('<%= appname %>');
 //=> var fooBarBaz = require('foo-bar-baz');
 ```
 
