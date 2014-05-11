@@ -1,7 +1,7 @@
 {
   "name": "variable",
   "description": "Make a npm package name safe to be used as a javascript variable name. Use as a mixin in Yeoman generators.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/variable",
   "author": {
     "name": "Jon Schlinkert",

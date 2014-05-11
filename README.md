@@ -13,21 +13,19 @@ npm i variable --save-dev
 ## Usage
 
 ```js
-var variable = require('variable');
-console.log(variable('foo-bar-bar'));
+var varName = require('variable');
+console.log(varName('foo-bar-bar'));
 //=> fooBarBaz
 ```
 
 Use as a mixin in Yeoman generators:
 
 ```js
-var variable = require('variable');
-
 // in the contructor
-this._.mixin(variable);
+this._.mixin(varName);
 
 // in templates you can now do something like:
-var <%= _.variable(appName) %> = require('<%= appname %>');
+var <%= _.varName(appName) %> = require('<%= appname %>');
 //=> var fooBarBaz = require('foo-bar-baz');
 ```
 
