@@ -1,6 +1,6 @@
 # namify [![NPM version](https://badge.fury.io/js/namify.png)](http://badge.fury.io/js/namify)
 
-> Make a npm package name safe to be used as a javascript namify name. Use as a mixin in Yeoman generators.
+> Convert a npm package name into a safe-to-use variable name. Use as a mixin in Yeoman generators.
 
 ## Install
 Install with [npm](npmjs.org):
@@ -17,6 +17,9 @@ var namify = require('namify');
 console.log(namify('foo-bar-bar'));
 //=> fooBarBaz
 ```
+If the resulting variable name matches an [ECMAscript reserved word](https://github.com/jonschlinkert/reserved), an underscore will be prepended to the variable name.
+
+### Yeoman generators
 
 Use as a mixin in Yeoman generators:
 
