@@ -10,6 +10,12 @@ npm i namify --save-dev
 ```
 
 
+Install with [bower](https://github.com/bower/bower)
+
+```bash
+npm i namify --save-dev
+```
+
 ## Usage
 
 ```js
