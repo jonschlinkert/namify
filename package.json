@@ -1,0 +1,46 @@
+{
+  "name": "variable",
+  "description": "Make a npm package name safe to be used as a javascript variable name. Use as a mixin in Yeoman generators.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/variable",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/variable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/variable/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/variable/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "var",
+    "variable",
+    "yo",
+    "yeoman",
+    "generator",
+    "name"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "verb": "~0.2.0",
+    "chai": "~1.9.1",
+    "mocha": "~1.18.2"
+  },
+  "dependencies": {
+    "reserved": "^0.1.0"
+  }
+}
